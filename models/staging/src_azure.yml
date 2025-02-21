@@ -1,0 +1,9 @@
+version: 2
+
+sources:      
+
+  - name: azure
+    database: kxs-rd-sbx-cs-analytics-01
+    schema: src_spend
+    tables:
+      - name: feb_spend_2024

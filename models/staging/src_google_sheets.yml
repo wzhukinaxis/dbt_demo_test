@@ -1,0 +1,9 @@
+version: 2
+
+sources:      
+
+  - name: google_sheets
+    database: kxs-rd-sbx-cs-analytics-01
+    schema: analytics_staging
+    tables:
+      - name: stg_ownership
